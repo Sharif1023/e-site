@@ -5,7 +5,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Signup from './pages/Signup';
-import AllProducts from './pages/AllProducts';
+import AllProductsPage from './pages/AllProductsPage'; // ✅ use AllProductsPage that includes Sidebar
+import ProductDetails from "./pages/ProductDetails";
+import CartPage from "./pages/CartPage";
 
 function App() {
   return (
@@ -16,8 +18,16 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/all-products" element={<AllProducts />} />
-        <Route path="/category/:category/:subcategory" element={<Home />} /> {/* dynamic category route */}
+
+        {/* ✅ All Products with Sidebar */}
+        <Route path="/all-products" element={<AllProductsPage />} />
+        <Route path="/category/:category/:subcategory" element={<AllProductsPage />} />
+
+        {/* Product Details */}
+        <Route path="/product/:id" element={<ProductDetails />} />
+
+        {/* Cart */}
+        <Route path="/cart" element={<CartPage />} />
       </Routes>
     </Router>
   );
