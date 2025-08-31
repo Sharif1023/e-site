@@ -4,16 +4,16 @@ import FlashSale from '../components/FlashSale';
 import { useNavigate } from 'react-router-dom';
 
 const featuredProducts = [
-  { id: 1, name: "Men's Shirt", price: 20, image: "https://via.placeholder.com/300x200", category: "Men's Fashion", subcategory: "Cloths" },
-  { id: 2, name: "Men's Shoes", price: 40, image: "https://via.placeholder.com/300x200", category: "Men's Fashion", subcategory: "Shoes" },
-  { id: 3, name: "Women's Dress", price: 35, image: "https://via.placeholder.com/300x200", category: "Women's Fashion", subcategory: "Cloths" },
-  { id: 4, name: "Men's Watch", price: 50, image: "https://via.placeholder.com/300x200", category: "Men's Fashion", subcategory: "Watches" },
-  { id: 5, name: "Vitamin C", price: 10, image: "https://via.placeholder.com/300x200", category: "Medicine", subcategory: "Vitamins" },
+  { id: 1, name: "Men's Shirt", price: 20, image: "/images/shirt1.jpg", category: "Men's Fashion", subcategory: "Cloths" },
+  { id: 2, name: "Men's Shoes", price: 40, image: "/images/shirt2.webp", category: "Men's Fashion", subcategory: "Shoes" },
+  { id: 3, name: "Women's Dress", price: 35, image: "/images/shirt3.jpg", category: "Women's Fashion", subcategory: "Cloths" },
+  { id: 4, name: "Men's Watch", price: 50, image: "/images/shirt2.webp", category: "Men's Fashion", subcategory: "Watches" },
+  { id: 5, name: "Vitamin C", price: 10, image: "/images/shirt1.jpg", category: "Medicine", subcategory: "Vitamins" },
 ];
 
 const flashSaleProducts = [
-  { id: 6, name: "Flash Product 1", price: 15, image: "https://via.placeholder.com/150" },
-  { id: 7, name: "Flash Product 2", price: 25, image: "https://via.placeholder.com/150" },
+  { id: 6, name: "Flash Product 1", price: 15, image: "/images/shirt2.webp" },
+  { id: 7, name: "Flash Product 2", price: 25, image: "/images/shirt3.jpg" },
 ];
 
 const Home = () => {
