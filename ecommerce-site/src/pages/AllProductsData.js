@@ -6,10 +6,10 @@ export const allProducts = [
     price: 20, 
     description: "Comfortable cotton shirt for men.",
     images: [
-      "https://via.placeholder.com/400?text=Shirt+1",
-      "https://via.placeholder.com/400?text=Shirt+2",
-      "https://via.placeholder.com/400?text=Shirt+3",
-      "https://via.placeholder.com/400?text=Shirt+4"
+      "/images/shirt1.jpg",
+      "/images/shirt3.jpg",
+      "/images/shirt2.webp",
+      "/images/shirt1.jpg"
     ],
     category: "Men's Fashion", 
     subcategory: "Cloths" 
